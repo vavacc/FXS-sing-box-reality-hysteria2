@@ -44,6 +44,9 @@ apt update -y
 apt install -y 
 hysteria 2 +reality + vmess 一键脚本：
 
+
+bash <(curl -fsSL https://github.com/vavacc/FXS-sing-box-reality-hysteria2/raw/main/reality_hy2_ws.sh)
+
 bash <(curl -fsSL https://github.com/liuoqu444/sing-box-reality-hysteria2/raw/main/reality_hy2_ws.sh)
 关闭防火墙
 
