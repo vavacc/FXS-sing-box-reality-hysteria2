@@ -37,6 +37,37 @@ warp解锁v4 v6等操作自行使用warp-go脚本
 wget -N https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh && bash warp-go.sh
 ```
 
+
+
+系统组件更新：
+apt update -y
+apt install -y 
+hysteria 2 +reality + vmess 一键脚本：
+
+bash <(curl -fsSL https://github.com/liuoqu444/sing-box-reality-hysteria2/raw/main/reality_hy2_ws.sh)
+关闭防火墙
+
+sudo ufw disable 
+clash verge下载：https://github.com/zzzgydi/clash-verge/releases
+clash verge 内核替换 clash.exe：https://github.com/Dreamacro/clash/releases
+
+替换clash-meta.exe：https://github.com/MetaCubeX/Clash.Meta/releases
+
+v2rayn下载：https://github.com/2dust/v2rayN/releases
+内核替换：https://github.com/apernet/hysteria/releases/
+
+ 
+
+查看端口是否被占用
+
+netstat -aon|findstr 5080
+ 
+
+结束被占用端口进程
+
+taskkill /T /F /PID 16976
+
+
 ## Credit
 - [sing-reality-box](https://github.com/deathline94/sing-REALITY-Box)
 - [sing-box](https://github.com/SagerNet/sing-box)
